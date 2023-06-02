@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nothing / bio</title>
+	<link type="image/x-icon" href="images/blackbio.jpg" rel="shortcut icon">
+	<script src="https://kit.fontawesome.com/a95a77ffcc.js" crossorigin="anonymous"></script>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			text-align: center; 
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-top: 50px;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			font-weight: bold;
+			margin: 20px 0;
+			padding: 0 50px;
+			text-align: justify;
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			border: 5px solid white;
+			max-width: 150px;
+			margin-top: 50px;
+		}
+
+		.btn {
+			display: inline-block;
+			padding: 12px 24px;
+			border-radius: 30px;
+			font-weight: bold;
+			background: linear-gradient(to right, rgb(255, 0, 0), rgb(148, 0, 211));
+			box-shadow: 0 0 20px rgba(255,0,0,0.5);
+			color: #fff;
+			font-size: 18px;
+			text-align: center;
+			text-decoration: none;
+			transition: all 0.3s ease;
+			margin-top: 10px; 
+		}
+
+		.btn:hover {
+			background: linear-gradient(to right, rgb(148, 0, 211), rgb(255, 0, 0));
+			box-shadow: 0 0 20px rgba(255, 0, 212, 0.5);
+		}
+
+		.btn:active {
+			background-color: rgb(0,0,255);
+			box-shadow: 0 0 20px rgba(0,0,255,0.5);
+		}
+
+		.container {
+	  text-align: center;
+	}
+
+	.text-align-center {
+	  text-align: center;
+	}
+		.glow {
+			animation: glow 1s ease-in-out infinite alternate;
+		}
+
+		@keyframes glow {
+	from {
+		text-shadow: 0 0 10px rgb(255,0,255), 0 0 20px rgb(255,0,255), 0 0 30px rgb(255,0,255), 0 0 40px rgb(255,0,255), 0 0 50px rgb(255,0,255);
+	}
+	to {
+		text-shadow: 0 0 20px rgb(255,0,255), 0 0 30px rgb(255,0,255), 0 0 40px rgb(255,0,255), 0 0 50px rgb(255,0,255), 0 0 60px rgb(255,0,255);
+	}
+}
+
+.glow {
+	animation: glow 1s ease-in-out infinite alternate;
+	color: pink; 
+}
+
+		
+	</style>
+</head>
+<body>
+	<h1 class="glow">nothing</h1>
+	<img src="images/blackbio.jpg" alt="Python Coder">
+	<div class="container">
+		<p class="text-align-center glow">ку!, я кодер крч</p>
+	  </div>	
+	<a href="https://www.tiktok.com/@tk.nothing" class="btn"><span class="fa-brands fa-tiktok fa-beat"></span> TikTok</a>  
+</body>
+</html>
